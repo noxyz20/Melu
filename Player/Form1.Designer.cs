@@ -126,7 +126,7 @@ namespace Player
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "Files|*.xls;*.xlsx;*.csv;...";
+            this.openFileDialog1.Filter = "Office Files|*.xls;*.xlsx;*.csv;...";
             // 
             // label1
             // 
