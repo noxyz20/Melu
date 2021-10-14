@@ -64,14 +64,14 @@
     <li>
       <a href="#getting-started">Pour commencer</a>
       <ul>
-        <li><a href="#prerequisites">Prérequis</a></li>
+        <!-- <li><a href="#prerequisites">Prérequis</a></li> -->
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Utilisation</a></li>
+    <!-- <li><a href="#usage">Utilisation</a></li> -->
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contribuer</a></li>
-    <li><a href="#license">License</a></li>
+    <!-- <li><a href="#contributing">Contribuer</a></li> -->
+    <!-- <li><a href="#license">License</a></li> -->
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Remerciements</a></li>
   </ol>
@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## À propos
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Logo][product-screenshot]](https://github.com/noxyz20/Melu/blob/main/images/logo.png?raw=true)
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `noxyz20`, `Melu`, `bdc_ca`, `frédéric-colin-4557bb1`, `bdc.contact.twitch@gmail.com`, `bdc.contact.twitch@gmail.com`, `Melu`, `Projet réalisé par les M2DFS du 14/10/2021 au 15/10/2021` -->
 
@@ -92,14 +92,11 @@
 
 ### Construit Avec
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Visual Studio 2019 Professional](https://visualstudio.microsoft.com/fr/downloads/)
+* [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0)
+* [Application Windows Form](https://docs.microsoft.com/fr-fr/visualstudio/ide/step-1-create-a-windows-forms-application-project?view=vs-2019)
+* [Pixlr](https://pixlr.com/fr/)
+* [GitHub](https://github.com/noxyz20/Melu)
 
 <p align="right">(<a href="#top">Vers le haut ↑</a>)</p>
 
@@ -108,20 +105,20 @@
 <!-- GETTING STARTED -->
 ## Pour commencer
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+<!-- This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps. -->
 
-### Prérequis
+<!-- ### Prérequis
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+<!-- 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
    git clone https://github.com/noxyz20/Melu.git
@@ -133,6 +130,10 @@ This is an example of how to list things you need to use the software and how to
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
+   ``` -->
+1. Cloner le repo
+   ```sh
+   git clone https://github.com/noxyz20/Melu.git
    ```
 
 <p align="right">(<a href="#top">Vers le haut ↑</a>)</p>
@@ -140,32 +141,32 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Utilisation
+<!-- ## Utilisation
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">Vers le haut ↑</a>)</p>
+<p align="right">(<a href="#top">Vers le haut ↑</a>)</p> -->
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [] Création du Front
+- [] Création du Back
+- [] Liaison du Front avec le Back
+    - [] Déployer l'application
 
-See the [open issues](https://github.com/noxyz20/Melu/issues) for a full list of proposed features (and known issues).
+Visionnez les [bugs connus](https://github.com/noxyz20/Melu/issues) pour une liste complète des fonctionnalités proposées (et les bugs connus)
 
 <p align="right">(<a href="#top">Vers le haut ↑</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contribuer
+<!-- ## Contribuer
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -178,25 +179,25 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">Vers le haut ↑</a>)</p>
+<p align="right">(<a href="#top">Vers le haut ↑</a>)</p> -->
 
 
 
 <!-- LICENSE -->
-## License
+<!-- ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">Vers le haut ↑</a>)</p>
+<p align="right">(<a href="#top">Vers le haut ↑</a>)</p> -->
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@bdc_ca](https://twitter.com/bdc_ca) - bdc.contact.twitch@gmail.com
+BDC - [@bdc_ca](https://twitter.com/bdc_ca) - bdc.contact.twitch@gmail.com
 
-Project Link: [https://github.com/noxyz20/Melu](https://github.com/noxyz20/Melu)
+Lien du projet : [https://github.com/noxyz20/Melu](https://github.com/noxyz20/Melu)
 
 <p align="right">(<a href="#top">Vers le haut ↑</a>)</p>
 
@@ -205,9 +206,9 @@ Project Link: [https://github.com/noxyz20/Melu](https://github.com/noxyz20/Melu)
 <!-- ACKNOWLEDGMENTS -->
 ## Remerciements
 
-* []()
-* []()
-* []()
+* [Frédéric Colin](https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-colin-4557bb1/)
+<!-- * []()
+* []() -->
 
 <p align="right">(<a href="#top">Vers le haut ↑</a>)</p>
 
@@ -227,4 +228,4 @@ Project Link: [https://github.com/noxyz20/Melu](https://github.com/noxyz20/Melu)
 [license-url]: https://github.com/noxyz20/Melu/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/frédéric-colin-4557bb1
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/logo.png
