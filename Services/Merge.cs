@@ -17,8 +17,7 @@ namespace Services
             columnList.RemoveAt(0);
             columnList.Select(@col => col.cells.Select(
                 (@cell, index) => columnToReturn.cells[index].content += separator + cell.content));
-            var test = new List<Column>() { columnToReturn };
-            return test;
+            return new List<Column>() { columnToReturn };
 
         }
     }
