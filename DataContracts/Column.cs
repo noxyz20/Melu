@@ -11,7 +11,6 @@ namespace DataContracts
        private List<Cell> cells { get; set; }
        private Guid id { get; set; }
        private String name { get; set; }
-       private int position { get; set; }
 
     }
 }
