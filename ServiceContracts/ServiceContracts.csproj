@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\Users\moham\Desktop\M2 Corte\.NET\Projects\Melu\DataContracts\M2DFS2021.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\DataContracts\M2DFS2021.snk" Link="M2DFS2021.snk" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataContracts\DataContracts.csproj" />
+  </ItemGroup>
+
+</Project>
