@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\Services\\Services.csproj": {}
+    "C:\\Users\\micka\\Source\\Repos\\Melu2\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\DataContracts\\DataContracts.csproj": {
+    "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\DataContracts\\DataContracts.csproj",
+        "projectUniqueName": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj",
         "projectName": "DataContracts",
-        "projectPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\DataContracts\\DataContracts.csproj",
-        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\DataContracts\\obj\\",
+        "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj",
+        "packagesPath": "C:\\Users\\micka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -62,22 +65,25 @@
         }
       }
     },
-    "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\ServiceContracts\\ServiceContracts.csproj": {
+    "C:\\Users\\micka\\Source\\Repos\\Melu2\\ServiceContracts\\ServiceContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\ServiceContracts\\ServiceContracts.csproj",
+        "projectUniqueName": "C:\\Users\\micka\\Source\\Repos\\Melu2\\ServiceContracts\\ServiceContracts.csproj",
         "projectName": "ServiceContracts",
-        "projectPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\ServiceContracts\\ServiceContracts.csproj",
-        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\ServiceContracts\\obj\\",
+        "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\ServiceContracts\\ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\micka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\ServiceContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -90,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\DataContracts\\DataContracts.csproj": {
-                "projectPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\DataContracts\\DataContracts.csproj"
+              "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj": {
+                "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj"
               }
             }
           }
@@ -124,22 +130,25 @@
         }
       }
     },
-    "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\Services\\Services.csproj": {
+    "C:\\Users\\micka\\Source\\Repos\\Melu2\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\Services\\obj\\",
+        "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\micka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -152,11 +161,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\DataContracts\\DataContracts.csproj": {
-                "projectPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\DataContracts\\DataContracts.csproj"
+              "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj": {
+                "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj"
               },
-              "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\ServiceContracts\\ServiceContracts.csproj": {
-                "projectPath": "C:\\Users\\moham\\Desktop\\M2 Corte\\.NET\\Projects\\Melu\\ServiceContracts\\ServiceContracts.csproj"
+              "C:\\Users\\micka\\Source\\Repos\\Melu2\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\ServiceContracts\\ServiceContracts.csproj"
               }
             }
           }

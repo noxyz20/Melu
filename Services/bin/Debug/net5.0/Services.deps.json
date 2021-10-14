@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Services/1.0.0": {
+        "dependencies": {
+          "DataContracts": "1.0.0",
+          "ServiceContracts": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        }
+      },
+      "DataContracts/1.0.0": {
+        "runtime": {
+          "DataContracts.dll": {}
+        }
+      },
+      "ServiceContracts/1.0.0": {
+        "dependencies": {
+          "DataContracts": "1.0.0"
+        },
+        "runtime": {
+          "ServiceContracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

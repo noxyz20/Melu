@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>M2DFS2021.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>DataContracts.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
 </Project>
