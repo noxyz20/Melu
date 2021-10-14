@@ -24,7 +24,13 @@ namespace Player
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult r8 = MessageBox.Show(this, "Voulez vous vraiment quitter l'application ?.",
+                                   "Etes vous sur ? wola?????", MessageBoxButtons.YesNo);
+
+            if (r8 == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }
