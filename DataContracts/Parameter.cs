@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataContracts
 {
-    class Parameter
+    public class Parameter
     {
         private String key { get; set; }
         private String value { get; set; }

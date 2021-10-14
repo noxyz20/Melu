@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataContracts
 {
-    class Column
+    public class Column
     {
        private List<Cell> cells { get; set; }
        private Guid id { get; set; }
