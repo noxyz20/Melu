@@ -8,9 +8,9 @@ namespace DataContracts
 {
     public class Column
     {
-       private List<Cell> cells { get; set; }
-       private Guid id { get; set; }
-       private String name { get; set; }
+       public List<Cell> cells { get; set; }
+       public Guid id { get; set; }
+       public String name { get; set; }
 
     }
 }

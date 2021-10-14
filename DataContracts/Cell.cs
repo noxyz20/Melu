@@ -4,6 +4,6 @@ namespace DataContracts
 {
     public class Cell
     {
-        private String content { get; set; }
+        public String content { get; set; }
     }
 }

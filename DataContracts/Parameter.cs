@@ -8,7 +8,7 @@ namespace DataContracts
 {
     public class Parameter
     {
-        private String key { get; set; }
-        private String value { get; set; }
+        public String key { get; set; }
+        public String value { get; set; }
     }
 }
