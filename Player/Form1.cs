@@ -22,15 +22,5 @@ namespace Player
             openFileDialog1.ShowDialog();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            DialogResult r8 = MessageBox.Show(this, "Voulez vous vraiment quitter l'application ?.",
-                                   "Etes vous sur ? wola?????", MessageBoxButtons.YesNo);
-
-            if (r8 == DialogResult.Yes)
-            {
-                this.Close();
-            }
-        }
     }
 }
