@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micka\\Source\\Repos\\Melu2\\Player\\Player.csproj": {}
+    "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micka\\Source\\Repos\\Melu2\\Player\\Player.csproj": {
+    "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Player\\Player.csproj",
+        "projectUniqueName": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj",
         "projectName": "Player",
-        "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Player\\Player.csproj",
-        "packagesPath": "C:\\Users\\micka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Player\\obj\\",
+        "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj",
+        "packagesPath": "C:\\Users\\33631\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\micka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\33631\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

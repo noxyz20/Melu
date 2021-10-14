@@ -66,27 +66,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\micka\\.nuget\\packages\\": {},
+    "C:\\Users\\33631\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Configurator\\Configurator.csproj",
+      "projectUniqueName": "E:\\Users\\33631\\Source\\Repos\\Melu\\Configurator\\Configurator.csproj",
       "projectName": "Configurator",
-      "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Configurator\\Configurator.csproj",
-      "packagesPath": "C:\\Users\\micka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Configurator\\obj\\",
+      "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Configurator\\Configurator.csproj",
+      "packagesPath": "C:\\Users\\33631\\.nuget\\packages\\",
+      "outputPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Configurator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\micka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\33631\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -102,14 +100,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj": {
-              "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj"
+            "E:\\Users\\33631\\Source\\Repos\\Melu\\DataContracts\\DataContracts.csproj": {
+              "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\DataContracts\\DataContracts.csproj"
             },
-            "C:\\Users\\micka\\Source\\Repos\\Melu2\\ServiceContracts\\ServiceContracts.csproj": {
-              "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\ServiceContracts\\ServiceContracts.csproj"
+            "E:\\Users\\33631\\Source\\Repos\\Melu\\ServiceContracts\\ServiceContracts.csproj": {
+              "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\ServiceContracts\\ServiceContracts.csproj"
             },
-            "C:\\Users\\micka\\Source\\Repos\\Melu2\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\Services\\Services.csproj"
+            "E:\\Users\\33631\\Source\\Repos\\Melu\\Services\\Services.csproj": {
+              "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Services\\Services.csproj"
             }
           }
         }
