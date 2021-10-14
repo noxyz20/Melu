@@ -22,5 +22,9 @@ namespace Player
             openFileDialog1.ShowDialog();
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

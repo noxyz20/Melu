@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Configurator
-build_property.ProjectDir = C:\Users\micka\Source\Repos\Melu2\Configurator\
+build_property.ProjectDir = C:\Users\rakze\Documents\.net\Melu\Configurator\

@@ -8,28 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\micka\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\rakze\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj",
+      "projectUniqueName": "C:\\Users\\rakze\\Documents\\.net\\Melu\\DataContracts\\DataContracts.csproj",
       "projectName": "DataContracts",
-      "projectPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\DataContracts.csproj",
-      "packagesPath": "C:\\Users\\micka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micka\\Source\\Repos\\Melu2\\DataContracts\\obj\\",
+      "projectPath": "C:\\Users\\rakze\\Documents\\.net\\Melu\\DataContracts\\DataContracts.csproj",
+      "packagesPath": "C:\\Users\\rakze\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rakze\\Documents\\.net\\Melu\\DataContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\micka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\rakze\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
