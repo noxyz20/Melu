@@ -14,7 +14,7 @@ namespace Services
         {
             //max d'element dans le tableau
             int nbElement = 0;
-            Column c = columnList[0];
+            Column c = inColumns[0];
             string delimiter = parameters[0].value;
             List<Column> columns = new List<Column>();
             List<Cell> cellules = new List<Cell>();
@@ -46,7 +46,7 @@ namespace Services
                 {
                     cells = cellules,
                     id = Guid.NewGuid(),
-                    name = c.name + " " + i + 1
+                    name = c.name + " " + i 
                 });
             }
 

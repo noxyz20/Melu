@@ -12,7 +12,7 @@ namespace Services
     {
         public override  List<Column> Transform()
         {
-            return new List<Column>(columnList);
+            return new List<Column>(inColumns);
            
         }
     }

@@ -18,7 +18,7 @@ namespace Services
         public List<Template> DeSerialize()
         {
             var templates = new List<Template>();
-            var serial = new XmlSerializer(typeof(List<Template>), new Type[] { typeof(List<Template>) });
+            var serial = new XmlSerializer(typeof(List<Template>));
             
 
             using (var st = File.Open("templates.xml", FileMode.Open))
@@ -45,7 +45,7 @@ namespace Services
 
         public void Serialize()
         {
-            var serial = new XmlSerializer(typeof(List<Template>), new Type[] { typeof(List<Template>) });
+            var serial = new XmlSerializer(typeof(List<Template>));
             var templateList = DeSerialize();
             using (var st = File.Create("templates.xml")) 
             {

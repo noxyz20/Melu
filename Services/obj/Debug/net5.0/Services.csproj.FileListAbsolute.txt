@@ -29,4 +29,4 @@ C:\Users\moham\source\repos\Melu\Services\obj\Debug\net5.0\Services.csproj.CoreC
 C:\Users\moham\source\repos\Melu\Services\obj\Debug\net5.0\Services.dll
 C:\Users\moham\source\repos\Melu\Services\obj\Debug\net5.0\ref\Services.dll
 C:\Users\moham\source\repos\Melu\Services\obj\Debug\net5.0\Services.pdb
-C:\Users\moham\source\repos\Melu\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
+C:\Users\moham\source\repos\Melu\Services\bin\Debug\net5.0\templates.xml

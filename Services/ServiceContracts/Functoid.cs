@@ -13,7 +13,8 @@ namespace Services.ServiceContracts
     public abstract class Functoid
 
     {
-        public List<Column> columnList { get; set; }
+        public List<Column> inColumns { get; set; }
+        public List<Column> outColumns { get; set; }
         public List<Parameter> parameters { get; set; }
         public abstract List<Column> Transform();
 

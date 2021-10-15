@@ -10,4 +10,10 @@
     <ProjectReference Include="..\DataContracts\DataContracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="templates.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
