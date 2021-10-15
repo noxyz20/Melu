@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +35,13 @@ namespace Configurator
 
         private void listBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox1.DataSource = FunctoidEnumerator.GetFunctoidClasses();
+            comboBox1.DisplayMember = "name";
 
         }
     }
