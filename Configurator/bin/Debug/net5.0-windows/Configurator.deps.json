@@ -9,7 +9,6 @@
       "Configurator/1.0.0": {
         "dependencies": {
           "DataContracts": "1.0.0",
-          "ServiceContracts": "1.0.0",
           "Services": "1.0.0"
         },
         "runtime": {
@@ -21,18 +20,9 @@
           "DataContracts.dll": {}
         }
       },
-      "ServiceContracts/1.0.0": {
-        "dependencies": {
-          "DataContracts": "1.0.0"
-        },
-        "runtime": {
-          "ServiceContracts.dll": {}
-        }
-      },
       "Services/1.0.0": {
         "dependencies": {
-          "DataContracts": "1.0.0",
-          "ServiceContracts": "1.0.0"
+          "DataContracts": "1.0.0"
         },
         "runtime": {
           "Services.dll": {}
@@ -47,11 +37,6 @@
       "sha512": ""
     },
     "DataContracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ServiceContracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
