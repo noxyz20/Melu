@@ -8,17 +8,15 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class Merge : Functoid
+    public class Constant:Functoid
     {
         public override List<Column> Transform(List<Column> columnList, List<Parameter> parameters)
         {
-            var separator = parameters[0].value;
-            var columnToReturn = columnList[0];
-            columnList.RemoveAt(0);
+            var val = parameters[0].value;
             columnList.Select(@col => @col.cells.Select(
-                (@cell, index) => columnToReturn.cells[index].content += separator + @cell.content));
-            return new List<Column>() { columnToReturn };
+                @cell => @cell.content = val));
 
+            return columnList;
         }
     }
 }
