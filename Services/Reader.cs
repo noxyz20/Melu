@@ -10,7 +10,7 @@ namespace Services
 {
     public class Reader
     {
-        public void readXls(String filePath)
+        public List<Column> readXls(String filePath)
         {
             var workbook = new WorkBook(filePath);
             var sheet = workbook.DefaultWorkSheet;
@@ -45,6 +45,7 @@ namespace Services
                 }
                 firstLine = false;
             }
+            return columns;
         }
 
         public void createXls()
