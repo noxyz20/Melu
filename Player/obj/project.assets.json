@@ -1,35 +1,118 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "IronXL.Excel/2021.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/IronXL.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronXL.dll": {}
+        }
+      },
+      "DataContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DataContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataContracts.dll": {}
+        }
+      },
+      "ServiceContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DataContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServiceContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceContracts.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DataContracts": "1.0.0",
+          "IronXL.Excel": "2021.9.0",
+          "ServiceContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "IronXL.Excel/2021.9.0": {
+      "sha512": "/att7CfDLCdEk+NKfgTQ0dlglzqyBKzTuqMB+0u7Maf7b23NEZuaR58Ogr/uh6eBPh3I68AVMsi30+evp56XbQ==",
+      "type": "package",
+      "path": "ironxl.excel/2021.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "ironxl.excel.2021.9.0.nupkg.sha512",
+        "ironxl.excel.nuspec",
+        "lib/net45/IronXL.dll",
+        "lib/net45/IronXL.xml",
+        "lib/netstandard2.0/IronXL.dll",
+        "lib/netstandard2.0/IronXL.xml",
+        "readme-setup.txt",
+        "readme.txt"
+      ]
+    },
+    "DataContracts/1.0.0": {
+      "type": "project",
+      "path": "../DataContracts/DataContracts.csproj",
+      "msbuildProject": "../DataContracts/DataContracts.csproj"
+    },
+    "ServiceContracts/1.0.0": {
+      "type": "project",
+      "path": "../ServiceContracts/ServiceContracts.csproj",
+      "msbuildProject": "../ServiceContracts/ServiceContracts.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "DataContracts >= 1.0.0",
+      "ServiceContracts >= 1.0.0",
+      "Services >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\33631\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\storm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj",
+      "projectUniqueName": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Player\\Player.csproj",
       "projectName": "Player",
-      "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj",
-      "packagesPath": "C:\\Users\\33631\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\obj\\",
+      "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Player\\Player.csproj",
+      "packagesPath": "C:\\Users\\storm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Player\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\33631\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\storm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0-windows7.0"
@@ -41,7 +124,17 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj": {
+              "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj"
+            },
+            "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj": {
+              "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj"
+            },
+            "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Services\\Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

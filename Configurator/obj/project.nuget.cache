@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MLSv4kTEc6c+Z4aaOzIs8nGhy2j2pdCp5OS8iR40EyriO+MET9onJ29R/sHVsop5yRTPNcKggegyzkIKhdyodw==",
+  "dgSpecHash": "bc2MmLiu7xbeheKVx4jOFcUtrze+6Is0eGsVsX0ybmcY+3BLArDJWt1+Amapv2AGDobiN3ffLCq4mvmWZCvMpA==",
   "success": true,
-  "projectFilePath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Configurator\\Configurator.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Configurator\\Configurator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\storm\\.nuget\\packages\\ironxl.excel\\2021.9.0\\ironxl.excel.2021.9.0.nupkg.sha512"
+  ],
   "logs": []
 }

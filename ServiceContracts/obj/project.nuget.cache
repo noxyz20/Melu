@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ct7AsW9xQpSWmE5sABQWGEtV0Iqq2s7hM8OXv12DX96OTJORWEQbvlK41xvCWIaMUU+C9UvhQm3z/YWyVKbyLA==",
+  "dgSpecHash": "oNgc6bRD0qXk86SSePu/oNFidgGZM1qO57ulCq7iDjDDyu+6lXhEYibJxuWfVe45AwKXg/IYh5IMCMrHq7FF4w==",
   "success": true,
-  "projectFilePath": "E:\\Users\\33631\\Source\\Repos\\Melu\\ServiceContracts\\ServiceContracts.csproj",
+  "projectFilePath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

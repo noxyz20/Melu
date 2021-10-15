@@ -27,28 +27,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\33631\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\storm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\33631\\Source\\Repos\\Melu\\ServiceContracts\\ServiceContracts.csproj",
+      "projectUniqueName": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj",
       "projectName": "ServiceContracts",
-      "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\ServiceContracts\\ServiceContracts.csproj",
-      "packagesPath": "C:\\Users\\33631\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\ServiceContracts\\obj\\",
+      "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj",
+      "packagesPath": "C:\\Users\\storm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\33631\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\storm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -61,8 +58,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Users\\33631\\Source\\Repos\\Melu\\DataContracts\\DataContracts.csproj": {
-              "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\DataContracts\\DataContracts.csproj"
+            "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj": {
+              "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj"
             }
           }
         }

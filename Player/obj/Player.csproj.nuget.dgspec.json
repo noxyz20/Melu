@@ -1,27 +1,83 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj": {}
+    "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Player\\Player.csproj": {}
   },
   "projects": {
-    "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj": {
+    "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj",
-        "projectName": "Player",
-        "projectPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\Player.csproj",
-        "packagesPath": "C:\\Users\\33631\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\33631\\Source\\Repos\\Melu\\Player\\obj\\",
+        "projectUniqueName": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj",
+        "projectName": "DataContracts",
+        "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj",
+        "packagesPath": "C:\\Users\\storm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\33631\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\storm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Player\\Player.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Player\\Player.csproj",
+        "projectName": "Player",
+        "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Player\\Player.csproj",
+        "packagesPath": "C:\\Users\\storm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Player\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\storm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"
@@ -33,7 +89,17 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj": {
+                "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj"
+              },
+              "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj"
+              },
+              "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Services\\Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,6 +127,139 @@
             },
             "Microsoft.WindowsDesktop.App.WindowsForms": {
               "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj",
+        "projectName": "ServiceContracts",
+        "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\storm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\storm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj": {
+                "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\storm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\storm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj": {
+                "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\DataContracts\\DataContracts.csproj"
+              },
+              "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\storm\\Documents\\Cours\\C#\\Melu_1\\ServiceContracts\\ServiceContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IronXL.Excel": {
+              "target": "Package",
+              "version": "[2021.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"

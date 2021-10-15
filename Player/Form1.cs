@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Services;
 
 namespace Player
 {
@@ -22,5 +23,10 @@ namespace Player
             openFileDialog1.ShowDialog();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var reader = new Reader();
+            reader.readXls(@"C:\Users\storm\Downloads\file_example_XLS_100.xls");
+        }
     }
 }
