@@ -12,19 +12,6 @@
           "bin/placeholder/DataContracts.dll": {}
         }
       },
-      "ServiceContracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "DataContracts": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ServiceContracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ServiceContracts.dll": {}
-        }
-      },
       "Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -46,11 +33,6 @@
       "path": "../DataContracts/DataContracts.csproj",
       "msbuildProject": "../DataContracts/DataContracts.csproj"
     },
-    "ServiceContracts/1.0.0": {
-      "type": "project",
-      "path": "../ServiceContracts/ServiceContracts.csproj",
-      "msbuildProject": "../ServiceContracts/ServiceContracts.csproj"
-    },
     "Services/1.0.0": {
       "type": "project",
       "path": "../Services/Services.csproj",
@@ -60,29 +42,23 @@
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "DataContracts >= 1.0.0",
-      "ServiceContracts >= 1.0.0",
       "Services >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\moham\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\franc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moham\\source\\repos\\Melu\\Configurator\\Configurator.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\source\\repos\\Melu\\Configurator\\Configurator.csproj",
       "projectName": "Configurator",
-      "projectPath": "C:\\Users\\moham\\source\\repos\\Melu\\Configurator\\Configurator.csproj",
-      "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moham\\source\\repos\\Melu\\Configurator\\obj\\",
+      "projectPath": "C:\\Users\\franc\\source\\repos\\Melu\\Configurator\\Configurator.csproj",
+      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\franc\\source\\repos\\Melu\\Configurator\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -96,14 +72,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\moham\\source\\repos\\Melu\\DataContracts\\DataContracts.csproj": {
-              "projectPath": "C:\\Users\\moham\\source\\repos\\Melu\\DataContracts\\DataContracts.csproj"
+            "C:\\Users\\franc\\source\\repos\\Melu\\DataContracts\\DataContracts.csproj": {
+              "projectPath": "C:\\Users\\franc\\source\\repos\\Melu\\DataContracts\\DataContracts.csproj"
             },
-            "C:\\Users\\moham\\source\\repos\\Melu\\ServiceContracts\\ServiceContracts.csproj": {
-              "projectPath": "C:\\Users\\moham\\source\\repos\\Melu\\ServiceContracts\\ServiceContracts.csproj"
-            },
-            "C:\\Users\\moham\\source\\repos\\Melu\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\moham\\source\\repos\\Melu\\Services\\Services.csproj"
+            "C:\\Users\\franc\\source\\repos\\Melu\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\franc\\source\\repos\\Melu\\Services\\Services.csproj"
             }
           }
         }
@@ -135,7 +108,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

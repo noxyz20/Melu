@@ -36,3 +36,10 @@ C:\Users\micka\Source\Repos\Melu2\Player\obj\Debug\net5.0-windows\Player.dll
 C:\Users\micka\Source\Repos\Melu2\Player\obj\Debug\net5.0-windows\ref\Player.dll
 C:\Users\micka\Source\Repos\Melu2\Player\obj\Debug\net5.0-windows\Player.pdb
 C:\Users\micka\Source\Repos\Melu2\Player\obj\Debug\net5.0-windows\Player.genruntimeconfig.cache
+C:\Users\franc\source\repos\Melu\Player\bin\Debug\net5.0-windows\templates.xml
+C:\Users\franc\source\repos\Melu\Player\bin\Debug\net5.0-windows\DataContracts.dll
+C:\Users\franc\source\repos\Melu\Player\bin\Debug\net5.0-windows\Services.dll
+C:\Users\franc\source\repos\Melu\Player\bin\Debug\net5.0-windows\DataContracts.pdb
+C:\Users\franc\source\repos\Melu\Player\bin\Debug\net5.0-windows\Services.pdb
+C:\Users\franc\source\repos\Melu\Player\bin\Debug\net5.0-windows\ServiceContracts.dll
+C:\Users\franc\source\repos\Melu\Player\bin\Debug\net5.0-windows\ServiceContracts.pdb

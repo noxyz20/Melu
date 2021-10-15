@@ -10,3 +10,15 @@ C:\Users\micka\Source\Repos\Melu2\DataContracts\obj\Debug\net5.0\DataContracts.c
 C:\Users\micka\Source\Repos\Melu2\DataContracts\obj\Debug\net5.0\DataContracts.dll
 C:\Users\micka\Source\Repos\Melu2\DataContracts\obj\Debug\net5.0\ref\DataContracts.dll
 C:\Users\micka\Source\Repos\Melu2\DataContracts\obj\Debug\net5.0\DataContracts.pdb
+C:\Users\franc\source\repos\Melu\DataContracts\bin\Debug\net5.0\DataContracts.deps.json
+C:\Users\franc\source\repos\Melu\DataContracts\bin\Debug\net5.0\DataContracts.dll
+C:\Users\franc\source\repos\Melu\DataContracts\bin\Debug\net5.0\ref\DataContracts.dll
+C:\Users\franc\source\repos\Melu\DataContracts\bin\Debug\net5.0\DataContracts.pdb
+C:\Users\franc\source\repos\Melu\DataContracts\obj\Debug\net5.0\DataContracts.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\Melu\DataContracts\obj\Debug\net5.0\DataContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\source\repos\Melu\DataContracts\obj\Debug\net5.0\DataContracts.AssemblyInfoInputs.cache
+C:\Users\franc\source\repos\Melu\DataContracts\obj\Debug\net5.0\DataContracts.AssemblyInfo.cs
+C:\Users\franc\source\repos\Melu\DataContracts\obj\Debug\net5.0\DataContracts.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\Melu\DataContracts\obj\Debug\net5.0\DataContracts.dll
+C:\Users\franc\source\repos\Melu\DataContracts\obj\Debug\net5.0\ref\DataContracts.dll
+C:\Users\franc\source\repos\Melu\DataContracts\obj\Debug\net5.0\DataContracts.pdb
