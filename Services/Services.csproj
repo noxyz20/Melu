@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataContracts\DataContracts.csproj" />
-    <ProjectReference Include="..\ServiceContracts\ServiceContracts.csproj" />
   </ItemGroup>
 
 </Project>

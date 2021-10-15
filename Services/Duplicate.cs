@@ -1,5 +1,5 @@
 ﻿using DataContracts;
-using ServiceContracts;
+using Services.ServiceContracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace Services
 {
     public class Duplicate : Functoid
     {
-        public override  List<Column> Transform(List<Column> columnList, List<Parameter> parameters)
+        public override  List<Column> Transform()
         {
             return new List<Column>(columnList);
            

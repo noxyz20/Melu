@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using DataContracts;
 
-namespace ServiceContracts
+namespace Services.ServiceContracts
 {
     [Serializable()]
     [XmlInclude(typeof(Split))]
     public abstract class Functoid
 
     {
-        public abstract List<Column> Transform(List<Column> columnList, List<Parameter> parameters);
+        public List<Column> columnList { get; set; }
+        public List<Parameter> parameters { get; set; }
+        public abstract List<Column> Transform();
 
     }
 }
