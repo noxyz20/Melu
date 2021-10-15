@@ -10,6 +10,9 @@ namespace Services.ServiceContracts
 {
     [Serializable()]
     [XmlInclude(typeof(Split))]
+    [XmlInclude(typeof(Constant))]
+    [XmlInclude(typeof(Merge))]
+    [XmlInclude(typeof(Duplicate))]
     public abstract class Functoid
 
     {

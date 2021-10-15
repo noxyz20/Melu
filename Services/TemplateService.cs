@@ -15,19 +15,18 @@ namespace Services
 
         
 
-        public List<Template> DeSerialize()
+        public Template DeSerialize()
         {
-            var templates = new List<Template>();
-            var serial = new XmlSerializer(typeof(List<Template>));
-            
+            var serial = new XmlSerializer(typeof(Template));
+            var deserializedTemplate = new Template();
 
-            using (var st = File.Open("templates.xml", FileMode.Open))
+            using (var st = File.Open(template.name + ".xml", FileMode.Open))
             {
                 try
                 {
                     Console.WriteLine("Deserializing ... ");
 
-                    templates = (List<Template>)serial.Deserialize(st);
+                    deserializedTemplate = (Template) serial.Deserialize(st);
                 }
                 catch (Exception ex)
                 {
@@ -40,18 +39,15 @@ namespace Services
 
                 
             }
-            return templates;
+            return deserializedTemplate;
         }
 
         public void Serialize()
         {
-            var serial = new XmlSerializer(typeof(List<Template>));
-            var templateList = DeSerialize();
-            using (var st = File.Create("templates.xml")) 
+            var serial = new XmlSerializer(typeof(Template));
+            using (var st = File.Create(template.name + ".xml")) 
             {
-                
-                templateList.Add(template);
-                serial.Serialize(st, templateList);
+                serial.Serialize(st, template);
             }
             
             
