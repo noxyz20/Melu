@@ -64,3 +64,5 @@ C:\Users\theot\Documents\Master2\dotNet\Melu\Configurator\obj\Debug\net5.0-windo
 C:\Users\theot\Documents\Master2\dotNet\Melu\Configurator\obj\Debug\net5.0-windows\ref\Configurator.dll
 C:\Users\theot\Documents\Master2\dotNet\Melu\Configurator\obj\Debug\net5.0-windows\Configurator.pdb
 C:\Users\theot\Documents\Master2\dotNet\Melu\Configurator\obj\Debug\net5.0-windows\Configurator.genruntimeconfig.cache
+C:\Users\theot\Documents\Master2\dotNet\Melu\Configurator\bin\Debug\net5.0-windows\XlsToTest.xls
+C:\Users\theot\Documents\Master2\dotNet\Melu\Configurator\bin\Debug\net5.0-windows\IronXL.dll

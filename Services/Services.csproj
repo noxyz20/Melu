@@ -7,10 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="IronXL.Excel" Version="2021.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DataContracts\DataContracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="XlsToTest.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="templates.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

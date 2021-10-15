@@ -173,6 +173,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "IronXL.Excel": {
+              "target": "Package",
+              "version": "[2021.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

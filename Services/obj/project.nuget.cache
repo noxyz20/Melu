@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Yifyy/1rcHeaJ/yVeNB9yur3Rxv34viw5f0sD2XLm4PSk54Mb8R/eQf51L3oycY6DVfqaTDYzi7Nuam2Ch544g==",
+  "dgSpecHash": "2a0TfGl48Pr7HCXBzDxyjf/FBtqOBbbxJmgFNEERZ+bfzo0S68zVuG7GWXqiCm5un7uJlwPr7SOJBXWaUK4AkQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\theot\\Documents\\Master2\\dotNet\\Melu\\Services\\Services.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\theot\\.nuget\\packages\\ironxl.excel\\2021.9.0\\ironxl.excel.2021.9.0.nupkg.sha512"
+  ],
   "logs": []
 }

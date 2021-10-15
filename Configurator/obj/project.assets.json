@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
+      "IronXL.Excel/2021.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/IronXL.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronXL.dll": {}
+        }
+      },
       "DataContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -16,7 +25,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "DataContracts": "1.0.0"
+          "DataContracts": "1.0.0",
+          "IronXL.Excel": "2021.9.0"
         },
         "compile": {
           "bin/placeholder/Services.dll": {}
@@ -28,6 +38,24 @@
     }
   },
   "libraries": {
+    "IronXL.Excel/2021.9.0": {
+      "sha512": "/att7CfDLCdEk+NKfgTQ0dlglzqyBKzTuqMB+0u7Maf7b23NEZuaR58Ogr/uh6eBPh3I68AVMsi30+evp56XbQ==",
+      "type": "package",
+      "path": "ironxl.excel/2021.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.txt",
+        "ironxl.excel.2021.9.0.nupkg.sha512",
+        "ironxl.excel.nuspec",
+        "lib/net45/IronXL.dll",
+        "lib/net45/IronXL.xml",
+        "lib/netstandard2.0/IronXL.dll",
+        "lib/netstandard2.0/IronXL.xml",
+        "readme-setup.txt",
+        "readme.txt"
+      ]
+    },
     "DataContracts/1.0.0": {
       "type": "project",
       "path": "../DataContracts/DataContracts.csproj",

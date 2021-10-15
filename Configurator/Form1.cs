@@ -17,12 +17,10 @@ namespace Configurator
     {
 
         private List<Functoid> functoids = new List<Functoid>();
+        private List<Column> columns = new List<Column>();
         public Form1()
         {
             InitializeComponent();
-            listBox1.Items.Add("Colonne1");
-            listBox1.Items.Add("Colonne2");
-            listBox1.Items.Add("Colonne3");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -118,6 +116,18 @@ namespace Configurator
                 template = template
             };
             templateService.Serialize();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            var reader = new Reader();
+            var fileName = openFileDialog1.FileName;
+            var columns = reader.readXls(fileName);
+            foreach (Column col in columns)
+            {
+                listBox1.Items.Add(col.name);
+            }
         }
     }
 }

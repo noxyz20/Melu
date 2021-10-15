@@ -45,3 +45,4 @@ C:\Users\theot\Documents\Master2\dotNet\Melu\Services\obj\Debug\net5.0\Services.
 C:\Users\theot\Documents\Master2\dotNet\Melu\Services\obj\Debug\net5.0\Services.dll
 C:\Users\theot\Documents\Master2\dotNet\Melu\Services\obj\Debug\net5.0\ref\Services.dll
 C:\Users\theot\Documents\Master2\dotNet\Melu\Services\obj\Debug\net5.0\Services.pdb
+C:\Users\theot\Documents\Master2\dotNet\Melu\Services\bin\Debug\net5.0\XlsToTest.xls
